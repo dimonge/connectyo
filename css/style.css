@@ -75,9 +75,12 @@ header p {
     text-transform: capitalize;
     color: gold;
 }
-
-.color {
+.background {
     background-image: url('../images/winter.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.color {
     width: 100%
     background-repeat: no-repeat;
 }
@@ -134,8 +137,6 @@ section.main-content .input-group {
 }
 
 section.main-content .btn-danger {
-    background-image:url('../images/winter.jpg');
-    background-repeat: no-repeat; 
     min-width: 69px;
     font-size: 23px;
     padding: 0;
@@ -188,8 +189,6 @@ section.footer p a {
     z-index: 1;
     margin-top: 10%;
     padding-top: 5px;
-    background-image:url('../images/winter.jpg');
-    background-repeat: no-repeat;
     color: white;
     padding-bottom: 10px;
 }
@@ -201,8 +200,6 @@ section.footer p a {
     z-index: -1;
     width: 125%;
     height: 105%;
-    background-image:url('../images/winter.jpg');
-    background-repeat: no-repeat;
     width: 100%;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
@@ -214,7 +211,6 @@ section.footer p a {
 
 .footer::before {
     height: 50%;
-    background-image:url('../images/winter.jpg');
     width: 100%;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
