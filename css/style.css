@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,800);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+
 *,
 *:after,
 *::before {
@@ -9,7 +11,7 @@
 body {
     background: white;
     color: black;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
     max-width: 100%;
 }
 
@@ -23,11 +25,15 @@ body {
 .container svg {
     display: block;
 }
-
+.iphone-img img{
+    height: 600px;
+    width: 300px;
+}
 section {
     position: relative;
     background: #2980b9;
     color: #000;
+    
     text-align: center;
 }
 /*** Individual section styles and separators ***/
@@ -54,9 +60,9 @@ header i.fa {
 }
 
 header h2 {
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
     font-weight: 800;
-    color: white;
+    color: gold;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 36px;
@@ -67,11 +73,11 @@ header p {
     font-family: 'Open Sans';
     font-size: 18px;
     text-transform: capitalize;
-    color: white;
+    color: gold;
 }
 
 .color {
-    background-color: #f64747
+    background-image: url('../images/winter.jpg');
 }
 
 .ss-style-doublediagonal {
@@ -126,7 +132,7 @@ section.main-content .input-group {
 }
 
 section.main-content .btn-danger {
-    background-color: #f64747;
+    background-image:url('../images/winter.jpg');
     min-width: 69px;
     font-size: 23px;
     padding: 0;
@@ -138,7 +144,7 @@ section.main-content .btn-danger {
 section.main-content .btn-danger:hover {
     background-color: #464646;
     border-color: #464646;
-    color: #f64747;
+    color: gold;
 }
 
 section.main-content .form-control {
@@ -179,7 +185,7 @@ section.footer p a {
     z-index: 1;
     margin-top: 10%;
     padding-top: 5px;
-    background: #f64747;
+    background-image:url('../images/winter.jpg');
     color: white;
     padding-bottom: 10px;
 }
@@ -191,7 +197,7 @@ section.footer p a {
     z-index: -1;
     width: 125%;
     height: 105%;
-    background: #f64747;
+    background-image:url('../images/winter.jpg');
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
@@ -202,7 +208,7 @@ section.footer p a {
 
 .footer::before {
     height: 50%;
-    background: #f64747;
+    background-image:url('../images/winter.jpg');
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);

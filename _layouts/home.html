@@ -41,30 +41,18 @@
     <section class="ss-style-doublediagonal main-content">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 text-center">
+                <div class="col-sm-6 text-center">
                     {{ content }}
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-
                     <div class="countdown"></div>
-
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12">
                     <h3>{{ site.data.messages.locales[site.locale].Learn_More }}</h3>
                     <div class="input-group">
-                        <form accept-charset="UTF-8" action="https://formkeep.com/f/bf2f8eef0a2b" method="POST">
-                            <input type="hidden" name="utf8" value="✓">
-                            <input class="form-control" type="email" name="email" placeholder="Your Email">            
-                            <span class="input-group-btn">
-                                <button class="btn btn-danger" type="submit"><i class="fa fa-check"></i></button>
-                            </span>
-                        </form>
+                        <form class="navbar-form navbar-left" role="search" accept-charset="UTF-8" action="https://formkeep.com/f/bf2f8eef0a2b" method="POST">
+                            <div class="form-group">
+                                <input type="hidden" name="utf8" value="✓">
+                                <input class="form-control" type="email" name="email" placeholder="Your Email">            
+                            </div>                            
+                            <button class="btn" type="submit"><i class="fa fa-check"></i></button>
+                        </form>                        
                     </div> 
                     <br> 
                     <ul class="list-unstyled list-inline">
@@ -82,10 +70,13 @@
                         </li>{% endif %}    
                         {% if site.owner.instagram %}<li>
                             <a href="http://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-instagram"></i></a>
-                        </li>{% endif %}                
-                    </ul>
+                        </li>{% endif %}     
+                    </ul>           
                 </div>
-            </div>
+                <div class="col-sm-6">
+                    <div class="iphone-img"><img src="../images/iphone-6.png"></div>
+                </div>
+            </div>            
         </div>
     </section>
 
@@ -97,8 +88,7 @@
                     <p>2015 - {{ site.owner.name }}</p>
 
                     <P> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
-                        Page and Design by <a target="_blank" href="http://mortezaaghili.github.io/">M. Aghili</a> + 
-                        <a target="_blank" href="https://www.behance.net/gallery/18421675/Free-Bootstrap-Psd-Coming-Soon-Template">Ilya B.</a>
+                        Design by MashRoad
                     </P>
                 </div>
             </div>

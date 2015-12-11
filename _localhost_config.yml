@@ -20,11 +20,11 @@ countdown:
 owner:
   name: MashRoad
   email: info@mashroad.com
-  twitter: https://twitter.com/mashroad
-  google-plus: https://google-plus.com/mashroad
-  instagramm: https://instagram.com/mashroad
-  #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
-  aboutlink:
+  twitter: mashroad
+  google-plus: mashroad
+  instagramm: mashroad
+  facebook: mashroad
+  aboutlink: 
     url:
     caption:
 
