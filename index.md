@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: /
-title: "Your Awesome Site"
-excerpt: "A Coming Soon Template"
+title: "MashRoad"
+excerpt: "Cheap Trip experience"
 ---
-# Website is coming soon
+# Will be available in February
 Tell the users that your website is not active yet. Put the reason to subscribe for the notification in this paragraph. Tell them about their problems which you would like to solve. Don’t forget the final call to action.
