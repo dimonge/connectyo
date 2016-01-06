@@ -1,12 +1,12 @@
 # Site wide configuration
 
-title: "MashRoad"
+title: "ConnectYo"
 description: "Cheap Trip experience"
 #if you modify locale please have a look at _data/messages.yml too
 locale: en
 #for meta name="author" :
 author: 
-url: mashroad.github.io/
+url: connectyo.github.io/
 #Target date in UTC / GMT
 countdown:
   theme: blue
@@ -18,11 +18,11 @@ countdown:
 
 # Site owner
 owner:
-  name: MashRoad
-  email: info@mashroad.com
-  twitter: mashroad
-  google-plus: mashroad
-  instagramm: MashRoad
+  name: ConnectYo
+  email: info@connectyo.com
+  twitter: ConnectYo
+  google-plus: ConnectYo
+  instagramm: ConnectYo
   aboutlink:
     url:
     caption:

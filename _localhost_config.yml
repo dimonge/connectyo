@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: "MashRoad"
+title: "ConnectYo"
 description: "Cheap Trip experience"
 #if you modify locale please have a look at _data/messages.yml too
 locale: en
@@ -18,12 +18,12 @@ countdown:
 
 # Site owner
 owner:
-  name: MashRoad
-  email: info@mashroad.com
-  twitter: mashroad
-  google-plus: mashroad
-  instagramm: mashroad
-  facebook: mashroad
+  name: ConnectYo
+  email: info@connectyo.com
+  twitter: ConnectYo
+  google-plus: ConnectYo
+  instagramm: ConnectYo
+  facebook: ConnectYo
   aboutlink: 
     url:
     caption:

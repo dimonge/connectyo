@@ -1,8 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "MashRoad"
-excerpt: "Cheap Trip experience"
+title: "ConnectYo"
+excerpt: "Cheap experience"
 ---
-# Will be available in February
-More information
+#We are reinventing the way you connect with your community.
