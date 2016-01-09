@@ -117,7 +117,7 @@ section.main-content p {
 section.main-content .input-group {
     max-width: 50%;
     margin: 0 auto;
-    margin-top: 25px;
+    /*margin-top: 25px; */
     width: 45%;
 
 }
@@ -192,10 +192,10 @@ section.footer p a {
 .email-field {
     float:left;
 }
-.email-field input {
-    margin-right: 59px;
+.input-field{
+    margin-right: 6.3em;
 }
-.email-field .input-field{
+.input-field{
     border-radius: 14px 0 0 14px !important;
     font-family: 'Open Sans';
 }
