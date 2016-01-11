@@ -6,7 +6,7 @@ description: "Cheap Trip experience"
 locale: en
 #for meta name="author" :
 author: 
-url: connectyo.github.io/
+url: localhost:4000
 #Target date in UTC / GMT
 countdown:
   theme: blue
@@ -23,7 +23,8 @@ owner:
   twitter: ConnectYo
   google-plus: ConnectYo
   instagramm: ConnectYo
-  aboutlink:
+  facebook: ConnectYo
+  aboutlink: 
     url:
     caption:
 
@@ -35,7 +36,7 @@ sass:
 permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
-highlighter: pygments
+highlighter: rouge
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
