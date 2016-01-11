@@ -115,10 +115,10 @@ section.main-content p {
 }
 
 section.main-content .input-group {
-    max-width: 50%;
+    /*max-width: 50%;*/
     margin: 0 auto;
     /*margin-top: 25px; */
-    width: 45%;
+    /*width: 49%;*/
 
 }
 
