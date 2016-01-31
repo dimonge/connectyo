@@ -107,7 +107,9 @@ header p {
     -ms-transform-origin: 3% 0;
     transform-origin: 3% 0;
 }
-
+.clear {
+    clear:both;
+}
 section.main-content p {
     color: #565656;
     max-width: 70%;
@@ -192,8 +194,9 @@ section.footer p a {
 .email-field {
     float:left;
 }
-.input-field{
-    margin-right: 6.3em;
+.form-group .email {
+    float:left;
+    width:80%;
 }
 .input-field{
     border-radius: 14px 0 0 14px !important;
@@ -202,7 +205,19 @@ section.footer p a {
 .signup-btn {
     float:right;
     border-radius: 0 14px 14px 0;
+    width: 20% !important;
     font-family: 'Open Sans';
+    padding: 4px 23px 8px 1px;
+}
+footer {
+    position: absolute;
+    background-color: lightgreen;
+}
+footer copyright {
+    bottom: 0;
+    left:0;
+    right:0;
+
 }
 .footer::before,
 .footer::after {
