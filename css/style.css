@@ -48,6 +48,10 @@ section::after {
 h1 {
     font-weight: 300;
 }
+header, .footer {
+    background: aliceblue none repeat scroll 0% 0%;
+    padding-bottom: 20px;
+}
 header h1 {
     margin-bottom: 0px;
     
