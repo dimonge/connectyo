@@ -30,11 +30,19 @@
             width:100%;
         }
         #mc-embedded-subscribe {
-            margin:0;
             clear:none;
+            display: inline-block;
+            margin: 0;
         }
         #mc_embed_signup .mc-field-group input {
             padding:0;
+        }
+        #mce-success-response {
+          color: white;
+          text-align: left;
+        }
+        #mce-error-response {
+          color: red;
         }
     </style>
 
@@ -71,9 +79,18 @@
                 <div class="col-md-6 col-md-pull-3 get-it">
                     <h1>Connect<em>Y</em>o </h1>
                     <p>Reinventing the way you connect with your community. </p>
-                    <form>
-                        <input class="form-control" type="email">
-                        <button class="btn btn-default" type="button">Sign up</button>
+                    <form action="//connectyo.us12.list-manage.com/subscribe/post?u=e312a7cf30026cdbada9bbb6e&amp;id=81852fe06e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <input type="hidden" name="utf8" value="✓">
+                        <input class="form-control" type="email" value="" name="EMAIL" placeholder="Your Email" id="mce-EMAIL">
+                        <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
+                        <div class="clear"></div>
+                        <div id="mce-responses" class="clear">
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_e312a7cf30026cdbada9bbb6e_81852fe06e" tabindex="-1" value="">
+                            </div>
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -95,84 +112,6 @@
             </div>
         </div>
     </footer>
-
-    <!--div class="wrapper">
-        <header>
-            <section>
-                <div class="container">
-                    <div class="navbar-header connect-header">
-                        <h1><img src="images/connect-yo.png"></h1>
-                        <ul class="nav nav-pills connect-nav">
-                            li><a href="/about">About</a></li
-                            <li><a href="http://blog.connectyo.com" target="_blank">Blog</a></li>
-                            <!--<li><a href="/help">Help</a></li>
-                            <li><a href="/about">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </header>
-        <section class="ss-style-doublediagonal main-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="iphone-img"><img src="images/iphone6-image.png"></div>
-                    </div>
-                    <div class="col-sm-8 text-center">
-                        {{ content }}
-                        <div class="countdown"></div>
-                        <h3>{{ site.data.messages.locales[site.locale].Learn_More }}</h3>
-                        <div class="input-group">
-                            <form action="//connectyo.us12.list-manage.com/subscribe/post?u=e312a7cf30026cdbada9bbb6e&amp;id=81852fe06e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="navbar-form navbar-left validate" target="_blank" novalidate>
-                                <div class="form-group email-field">
-                                    <input type="hidden" name="utf8" value="✓">
-                                    <input class="required email input-field form-control" type="email" value="" name="EMAIL" placeholder="Your Email" id="mce-EMAIL">
-                                    <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default signup-btn">
-                                </div>
-                                button type="submit" class="btn btn-default signup-btn">Sign up</button
-                                <div class="clear"></div>
-                                <div id="mce-responses" class="clear">
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                        <input type="text" name="b_e312a7cf30026cdbada9bbb6e_81852fe06e" tabindex="-1" value="">
-                                    </div>
-                                    <div class="response" id="mce-error-response" style="display:none"></div>
-                                    <div class="response" id="mce-success-response" style="display:none"></div>
-                                </div>
-                            </form>
-                        </div>
-
-                        <ul class="list-unstyled list-inline">
-                            {% if site.owner.email %}<li>
-                                <a href="mailto:{{ site.owner.email }}"><i class="fa fa-envelope"></i></a>
-                            </li>{% endif %}
-                            {% if site.owner.facebook %}<li>
-                                <a href="http://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-facebook"></i></a>
-                            </li>{% endif %}
-                            {% if site.owner.twitter %}<li>
-                                <a href="http://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-twitter"></i></a>
-                            </li>{% endif %}
-                            {% if site.owner.google_plus %}<li>
-                                <a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-google-plus"></i></a>
-                            </li>{% endif %}
-                            {% if site.owner.instagram %}<li>
-                                <a href="http://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-instagram"></i></a>
-                            </li>{% endif %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="footer">
-
-            <p>&copy; 2015 - {{ site.owner.name }}</p>
-
-            <P> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
-                Design by ConnectYo
-            </P>
-
-        </section>
-    </div>
--->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="javascripts/bootstrap.min.js"></script>
     <script src="js/jquery.classycountdown.min.js"></script>
