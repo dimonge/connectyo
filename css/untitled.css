@@ -1,0 +1,7 @@
+@media (min-width:800px) {
+  input.form-control{
+    width:81%;
+    float:left;
+  }
+}
+
