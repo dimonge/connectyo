@@ -5,7 +5,7 @@ description: "Cheap Trip experience"
 #if you modify locale please have a look at _data/messages.yml too
 locale: en
 #for meta name="author" :
-author: 
+author:
 url: connectyo.github.io/
 #Target date in UTC / GMT
 countdown:
@@ -20,9 +20,9 @@ countdown:
 owner:
   name: ConnectYo
   email: info@connectyo.com
-  twitter: 
+  twitter:
   google-plus: ConnectYo
-  instagramm: ConnectYo
+  instagram: ConnectYo
   facebook: ConnectYo
   aboutlink:
     url:
