@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-md-6 col-md-pull-3 get-it">
                     <h1>Connect<em>Y</em>o </h1>
-                    <p>Reinventing the way you connect with your community. </p>
+                    <p>{{content}}</p>
                     <form action="//connectyo.us12.list-manage.com/subscribe/post?u=e312a7cf30026cdbada9bbb6e&amp;id=81852fe06e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <input type="hidden" name="utf8" value="✓">
                         <input class="form-control" type="email" value="" name="EMAIL" placeholder="Your Email" id="mce-EMAIL">
@@ -107,6 +107,9 @@
                 {% endif %}
                 {% if site.owner.twitter %}
                     <a href="http://twitter.com/{{ site.owner.twitter }}"><span class="fa fa-twitter"></span></a>
+                {% endif %}
+                {% if site.owner.instagram %}
+                    <a href="http://instagram.com/{{ site.owner.instagram }}"><span class="fa fa-instagram"></span></a>
                 {% endif %}
                 </div>
             </div>
