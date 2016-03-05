@@ -2,6 +2,6 @@
 layout: home
 permalink: /
 title: "ConnectYo - Cheap experience"
-excerpt: "Reinventing the way you connect with your community" 
+excerpt: "Reinventing the way you connect." 
 ---
 # Reinventing the way you connect with your community.
