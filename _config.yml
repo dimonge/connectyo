@@ -20,9 +20,9 @@ countdown:
 owner:
   name: ConnectYo
   email: info@connectyo.com
-  twitter: ConnectYo
-  google-plus: ConnectYo
-  instagram: ConnectYo
+  twitter:
+  google-plus:
+  instagram: 
   facebook: ConnectYo
   aboutlink:
     url:
