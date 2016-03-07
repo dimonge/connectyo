@@ -1,0 +1,4 @@
+---
+layout: thankyou
+permalink: /thankyou
+---
