@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="278px" height="240px" viewBox="0 0 278 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>works</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="104" y="0" width="74.1982759" height="41.8176796" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="74.1982759" height="41.8176796" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="104" y="198" width="74.1982759" height="41.8176796" rx="8"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="74.1982759" height="41.8176796" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="100" width="74.1982759" height="41.8176796" rx="8"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="74.1982759" height="41.8176796" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="203" y="100" width="74.1982759" height="41.8176796" rx="8"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="74.1982759" height="41.8176796" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="works">
+            <ellipse id="Oval-4" stroke="#D8E9D8" cx="138.5" cy="120" rx="101.5" ry="99"></ellipse>
+            <text id="&lt;" transform="translate(215.271963, 56.902400) rotate(-129.000000) translate(-215.271963, -56.902400) " font-family="Helvetica" font-size="12" font-weight="normal" fill="#9B9B9B">
+                <tspan x="210.771963" y="60.9023996">&lt;</tspan>
+            </text>
+            <text id="&lt;" transform="translate(63.298616, 184.806565) rotate(50.000000) translate(-63.298616, -184.806565) " font-family="Helvetica" font-size="12" font-weight="normal" fill="#9B9B9B">
+                <tspan x="58.7986162" y="188.806565">&lt;</tspan>
+            </text>
+            <text id="&lt;" transform="translate(65.235233, 52.988606) rotate(131.000000) translate(-65.235233, -52.988606) " font-family="Helvetica" font-size="12" font-weight="normal" fill="#9B9B9B">
+                <tspan x="60.7352327" y="56.9886063">&lt;</tspan>
+            </text>
+            <text id="&lt;" transform="translate(216.298616, 181.806565) rotate(-53.000000) translate(-216.298616, -181.806565) " font-family="Helvetica" font-size="12" font-weight="normal" fill="#9B9B9B">
+                <tspan x="211.798616" y="185.806565">&lt;</tspan>
+            </text>
+            <use id="Rectangle-3" stroke="#D8D8D8" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <use id="Rectangle-3" stroke="#D8D8D8" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-3"></use>
+            <text id="Access-service-provi" font-family="Helvetica" font-size="7" font-weight="normal" fill="#000000">
+                <tspan x="117.996607" y="20">Access service </tspan>
+                <tspan x="126.941432" y="28">providers</tspan>
+            </text>
+            <use id="Rectangle-3" stroke="#D8D8D8" mask="url(#mask-6)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-5"></use>
+            <use id="Rectangle-3" stroke="#D8D8D8" mask="url(#mask-8)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-7"></use>
+            <text id="Real-time-tracking" font-family="Helvetica" font-size="7" font-weight="normal" fill="#000000">
+                <tspan x="211.688872" y="123">Real-time tracking</tspan>
+            </text>
+            <text id="Seamless-payment" font-family="Helvetica" font-size="7" font-weight="normal" fill="#000000">
+                <tspan x="111.081156" y="220">Seamless payment</tspan>
+            </text>
+            <text id="Access-to-transactio" font-family="Helvetica" font-size="7" font-weight="normal" fill="#000000">
+                <tspan x="21.7198781" y="118.830322">Access to </tspan>
+                <tspan x="8.49063005" y="126.830322">transaction history</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

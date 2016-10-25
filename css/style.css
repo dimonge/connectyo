@@ -490,9 +490,10 @@ button.et-rotate {
 	margin-left:0;}
 
 .first .ipad img{
-	width:95%;
+	width:74%;
+  padding-top: 12%;
+  //margin-left: 13%;
 }
-
 
 .first .ipad {
 	padding:0px 0;

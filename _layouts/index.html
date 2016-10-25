@@ -10,6 +10,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>{{ page.title | default: site.title }}</title>
+  
   {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   {% if site.author %}<meta name="author" content="{{ site.author }}" />{% endif %}
@@ -24,12 +25,7 @@
   <link rel="stylesheet" href="css/style.css">   			<!-- Main stylesheet /-->
   <link rel="stylesheet" href="css/elementTransitions.css"> <!-- Elements Transitions used for mobile menu /-->
   <link rel="stylesheet" href="css/font-awesome.css">   	<!-- Font Awesome /-->
-
-
   <script src="javascript/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
-
-
-
 </head>
 
 
