@@ -645,7 +645,6 @@ button.et-rotate {
 }
 
 
-
 /* 09. SCREENSHOTS SETTINGS ================================================== */
 
 
@@ -911,7 +910,25 @@ ul.testimonial-box-nav li {
 .subscribe .form {
 	padding-top:10px;
 }
-
+.calltoaction-btn {
+  margin: 0 auto;
+  width:15%;
+  float: none;
+  letter-spacing:2px;
+	display:block;
+	border:none;
+	cursor:pointer;
+	margin-top:10px;
+	padding:14px;
+	color:#FFF;
+	font-size:11px;
+	background:#e74c3c;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-ms-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+}
 .subscribe .submit {
 	width:20%;
 	float:right;
