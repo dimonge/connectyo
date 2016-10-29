@@ -936,6 +936,9 @@ ul.testimonial-box-nav li {
   font-family: "Gotham Light"
 
 }
+.calltoaction-btn a {
+  color: #FFF;
+}
 .subscribe .submit {
 	width:20%;
 	float:right;

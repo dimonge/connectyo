@@ -11,6 +11,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <link rel="shortcut-icon" href="./img/favicon.png" type="image/vnd.microsoft.icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta property="og-title" content="ConnectYo">
+  <meta property="og-type" content="website">
+  <meta property="og-url" content="https://www.connectyo.com">
+  
   <title>{{ page.title | default: site.title }}</title>
   {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
@@ -18,7 +22,7 @@
 
   <!-- Favicon /-->
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> <!-- Favicon /-->
-
+  <link rel="canonical" href="https://connectyo.com" />
 
   <!-- Stylesheets /-->
   <link rel="stylesheet" href="css/gumby.css">   			<!-- Gumby Framework /-->
@@ -54,7 +58,7 @@
 				<a class="scrollTo" href="#mission">Mission</a>
 				<a class="scrollTo" href="#core-value">Core Value</a>
 				<!--a class="scrollTo" href="#quotes">Testimonials</a-->
-				<a class="scrollTo" href="#sign-up">Sign up</a>
+				<!--<a class="scrollTo" href="#sign-up">Sign up</a>-->
         <a href="https://medium.com/@Connectyo">Blog</a>
         </nav>
 
@@ -91,7 +95,7 @@
 	      	<!-- Title -->
 
 	        <h2>We are </h2>
-          <button class="calltoaction-btn">SIGN UP</button>
+          <a class="scrollTo" href="#sign-up"><button class="calltoaction-btn">SIGN UP</button></a>
         </div>
 
 		    <!-- Little text on bottom with arrow -->
