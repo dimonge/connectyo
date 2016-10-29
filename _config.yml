@@ -1,12 +1,12 @@
 # Site wide configuration
 
 title: "ConnectYo"
-description: "Cheap Trip experience"
+description: "Simplify your experience"
 #if you modify locale please have a look at _data/messages.yml too
 locale: en
 #for meta name="author" :
 author:
-url: connectyo.github.io/
+url: https://radiologist-patricia-16758.netlify.com/
 #Target date in UTC / GMT
 countdown:
   theme: blue
