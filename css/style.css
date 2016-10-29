@@ -84,12 +84,12 @@ body,html {
 
 /* Selected text Color */
 ::-moz-selection {
-	background:#e74c3c;
+	background:#33753c;
 	color:#FFF;
 }
 
 ::selection {
-	background:#e74c3c;
+	background:#33753c;
 	color:#FFF;
 }
 
@@ -107,7 +107,7 @@ b,strong {
 }
 
 h2 {
-	font-family:'Montserrat',sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
 	font-size:40px;
 	letter-spacing:2px;
@@ -115,7 +115,7 @@ h2 {
 }
 
 h3 {
-	font:25px 'Source Sans Pro',sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:500;
 	color:#5b5e61;
 	text-transform: uppercase;
@@ -127,12 +127,12 @@ h3:after {
 	width:40px;
 	height:5px;
 	margin:30px 0 25px;
-	background:#e74c3c;
+	background:#33753c;
 	display:block;
 }
 
 h4 {
-	font:21px 'Source Sans Pro',sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:600;
 	color:#5b5e61;
 }
@@ -142,12 +142,12 @@ h4:after {
 	width:30px;
 	height:4px;
 	margin:20px 0 15px;
-	background:#e74c3c;
+	background:#33753c;
 	display:block;
 }
 
 h5 {
-	font:18px 'Source Sans Pro',sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	font-weight:600;
 	color:#5b5e61;
@@ -174,7 +174,7 @@ a:hover {
 
 /* Paragrah */
 p {
-	font-family:'Source Sans Pro',sans-serif;
+	font-family:'Roboto',sans-serif;
 	font-weight:300;
 	line-height:32px;
   font-size: 1.1rem;
@@ -202,7 +202,7 @@ i:hover {
 	padding:10px 20px;
 	text-transform:uppercase;
 	font-size:11px;
-	background:#e74c3c;
+	background:#33753c;
 	letter-spacing:2px;
 	font-weight:400;
 	margin:10px 0;
@@ -343,7 +343,7 @@ button.et-rotate {
 
 .topBar .barInner nav .selected {
 	opacity:1;
-	border-bottom:3px solid #e74c3c;
+	border-bottom:3px solid #33753c;
 }
 
 .topBar .barInner nav a:hover {
@@ -354,17 +354,16 @@ button.et-rotate {
 	background-attachment:scroll;
 	background-clip:border-box;
 	background-color:rgba(0,0,0,0);
-	background-image:url(../img/logo_white.png); /* EDIT YOUR LOGO HERE */
+	background-image:url(../img/connectyo-logo.png); /* EDIT YOUR LOGO HERE */
 	background-origin:padding-box;
 	background-position:left top;
 	background-repeat:no-repeat;
-	background-size:80px 50px!important;
+	background-size:100px 75px!important;
 	display:inline-block;
-
-	margin:25px 40px 0;
+	margin:30px 60px 0;
 	position:absolute;
 	text-indent:-9999px;
-	width:80px;
+	width:12%;
 	-webkit-transition:background-image .2s ease-in-out;
 	-moz-transition:background-image .2s ease-in-out;
 	-ms-transition:background-image .2s ease-in-out;
@@ -401,7 +400,7 @@ button.et-rotate {
 }
 
 #leadFader h2 {
-	color:#FFF;
+	//color:#FFF;
 }
 
 #leadFader img {
@@ -585,7 +584,7 @@ button.et-rotate {
 	width:40px;
 	height:5px;
 	margin:30px auto 25px;
-	background:#e74c3c;
+	background:#33753c;
 	display:block;
 }
 
@@ -829,7 +828,7 @@ ul.testimonial-box-nav li {
 
 .testimonial-box-nav li a.active,
 .testimonial-box-nav li a:hover {
-	border:1px solid #e74c3c;
+	border:1px solid #33753c;
 }
 
 .testimonial-box-nav li img {
@@ -912,17 +911,18 @@ ul.testimonial-box-nav li {
 }
 .calltoaction-btn {
   margin: 0 auto;
-  width:15%;
+  width:20%;
   float: none;
   letter-spacing:2px;
 	display:block;
 	border:none;
 	cursor:pointer;
 	margin-top:10px;
-	padding:14px;
+	padding:12px;
 	color:#FFF;
-	font-size:11px;
-	background:#e74c3c;
+	font-size:18px;
+  border-radius: 4px;
+	background:#33753c;
 	-webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
 	-ms-transition:all .2s ease-in-out;
@@ -940,7 +940,7 @@ ul.testimonial-box-nav li {
 	padding:14px;
 	color:#FFF;
 	font-size:11px;
-	background:#e74c3c;
+	background:#33753c;
 	-webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
 	-ms-transition:all .2s ease-in-out;
@@ -1318,13 +1318,13 @@ header i.fa {
 }
 
 header h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 36px;
 }
 
 header p {
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
     font-size: 18px;
     text-transform: capitalize;
 }
