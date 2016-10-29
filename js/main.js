@@ -52,9 +52,9 @@ $("section").waypoint(function(direction) {
     background = $(this).css('background-color');
         // Scrolling down
         if (background == 'rgb(255, 255, 255)') {
-            $("nav a").css("color","#FFF");
+            $("nav a").css("color","#000");
         } else {
-            $("nav a").css("color","rgba(91,94,97,0.9)");
+            $("nav a").css("color","#000");
 
         }
         }
@@ -66,9 +66,9 @@ $("section").waypoint(function(direction) {
     background = $(this).css('background-color');
         // Scrolling down
         if (background == 'rgb(255, 255, 255)') {
-            $("nav a").css("color","rgba(91,94,97,0.9)");
+            $("nav a").css("color","000");
         } else {
-            $("nav a").css("color","#fff");
+            $("nav a").css("color","#000");
         }
 }, { offset: 45 });
 
@@ -274,8 +274,8 @@ $("section").waypoint(function(direction) {
 /*-----------------------------------------------------------------------------------*/
 
 
+/*
 
-    /* Form Submission */
     $('form').submit(function () {
 
         var form_data = $(this).serialize();
@@ -308,7 +308,7 @@ $("section").waypoint(function(direction) {
     });
 
 
-    /* Validate E-Mail */
+
 
     function validateEmail(email) {
         // http://stackoverflow.com/a/46181/11236
@@ -319,9 +319,19 @@ $("section").waypoint(function(direction) {
 
 
 
+		*/
+		$("#contact").submit(function(e) {
+		  e.preventDefault();
 
-}); /* END OF Document Ready */
+		  var $form = $(this);
+		  $.post($form.attr("action"), $form.serialize()).then(function() {
+		    $('.thank-you').append('<p>Thanks for signing up, we will notify you once we launch</p>')
+				$('.name').val('');
+				$('.email').val('');
+		  });
+		});
 
+});
 
 /*-----------------------------------------------------------------------------------*/
 /*	11. FADE IN - FADE OUT BETWEEN EACH PAGES

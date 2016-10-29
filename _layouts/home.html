@@ -9,6 +9,8 @@
   <!-- Meta tags & title /-->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="shortcut-icon" href="./img/favicon.png" type="image/vnd.microsoft.icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
@@ -17,7 +19,6 @@
   <!-- Favicon /-->
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> <!-- Favicon /-->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Stylesheets /-->
   <link rel="stylesheet" href="css/gumby.css">   			<!-- Gumby Framework /-->
@@ -49,11 +50,11 @@
     	<a href="index.html"><h1 class="logo">ConnectYo</h1></a>
 
         <nav id="nav">
-				<a class="scrollTo" href="#first">Vision</a>
-				<a class="scrollTo" href="#screen">Mission</a>
-				<a class="scrollTo" href="#services">Core Value</a>
+				<a class="scrollTo" href="#vision">Vision</a>
+				<a class="scrollTo" href="#mission">Mission</a>
+				<a class="scrollTo" href="#core-value">Core Value</a>
 				<!--a class="scrollTo" href="#quotes">Testimonials</a-->
-				<a class="scrollTo" href="#four">Sign up</a>
+				<a class="scrollTo" href="#sign-up">Sign up</a>
         <a href="https://medium.com/@Connectyo">Blog</a>
         </nav>
 
@@ -110,11 +111,11 @@
 			<nav class="menu-off">
 
 				<ul class="nav-off">
-					<li><a class="scrollTo" href="#first">Vision</a></li>
-					<li><a class="scrollTo" href="#screen">Mission</a></li>
-					<li><a class="scrollTo" href="#services">Services</a></li>
-					<li><a class="scrollTo" href="#quotes">Testimonials</a></li>
-					<li><a class="scrollTo" href="#four">Sign up</a></li>
+					<li><a class="scrollTo" href="#vision">Vision</a></li>
+					<li><a class="scrollTo" href="#mission">Mission</a></li>
+					<li><a class="scrollTo" href="#core-value">Core Value</a></li>
+					<!--li><a class="scrollTo" href="#quotes">Testimonials</a></li-->
+					<li><a class="scrollTo" href="#sign-up">Sign up</a></li>
 				</ul>
 
 			</nav>
@@ -136,7 +137,7 @@
 <!-- FIRST SECTION ############################################### -->
 
 
-<section id="first" class="first">
+<section id="vision" class="first">
 
 	<div class="row scrollme">
 
@@ -176,7 +177,7 @@
 <!-- SECOND SECTION ############################################### -->
 
 
-<section id="second" class="second">
+<section id="mission" class="second">
 
 	<div class="row scrollme">
 
@@ -221,7 +222,7 @@
 
 
 <!-- TIRTH SECTION ############################################### -->
-<section id="first" class="first">
+<section id="core-value" class="first">
 
 	<div class="row scrollme">
 
@@ -477,40 +478,27 @@
 
 <!-- SUBSCRIBE SECTION ############################################### -->
 
-<section class="subscribe scrollme">
-
-
-		    <div class="row animateme" data-when="enter" data-from="0.8" data-to="0.2" data-opacity="0" data-translateY="-80">
-
+<section id="sign-up" class="subscribe scrollme">
+	<div class="row animateme" data-when="enter" data-from="0.8" data-to="0.2" data-opacity="0" data-translateY="-80">
 				<!-- Subscribe -->
+		<div class="ten columns centered">
+			<!-- Title -->
 
-				<div class="ten columns centered">
+			<h3>We're not ready, wanna be informed when we launch ?</h3>
 
-					<!-- Title -->
+			<!-- Form -->
 
-					<h3>We're not ready, wanna be informed when we launch ?</h3>
+			 <form id="contact" name="contact" action="thank-you" netlify>
+				<input class="name" type="text" name="name" placeholder="YOUR LOVELY NAME" required>
+				<input class="email" type="email" name="email" placeholder="YOUR E-MAIL" required>
+				<button name="send" type="submit" class="submit">BE INFORMED</button>
+			 </form>
+			<!-- Text After validation -->
 
-					<!-- Form -->
-
-					 <form name="htmlform" method="post" action="form_sender.php">
-
-						<input type="text" name="name" placeholder="YOUR LOVELY NAME" required>
-
-						<input type="email" name="email" placeholder="YOUR E-MAIL" required>
-
-						<button name="send" type="submit" class="submit">BE INFORMED</button>
-
-					 </form>
-
-					<!-- Text After validation -->
-
-					<p class="spam"></p>
-
-				</div>
-
-		    </div>
-
-
+      <div class="thank-you"></div>
+			<p class="spam"></p>
+		</div>
+  </div>
 </section>
 
 <!-- END SUBSCRIBE SECTION ############################################### -->
@@ -591,12 +579,12 @@
 
 
   <!-- Change UA-XXXXX-X to be your site's ID -->
-  <!--<script>
+  <script>
     window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
     });
-  </script>  -->
+  </script>
 
   </body>
 

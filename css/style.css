@@ -107,15 +107,15 @@ b,strong {
 }
 
 h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight:700;
+	font-family: 'Gotham Light', sans-serif;
+	font-weight:300;
 	font-size:40px;
 	letter-spacing:2px;
 	text-transform:uppercase;
 }
 
 h3 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Gotham Light', sans-serif;
 	font-weight:500;
 	color:#5b5e61;
 	text-transform: uppercase;
@@ -400,7 +400,7 @@ button.et-rotate {
 }
 
 #leadFader h2 {
-	//color:#FFF;
+	color:#FFF;
 }
 
 #leadFader img {
@@ -425,6 +425,10 @@ button.et-rotate {
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
+  -webkit-filter:blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  filter:blur(3px);
 }
 
 .blur {
@@ -474,7 +478,9 @@ button.et-rotate {
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
-
+.row {
+  max-width: 1060px !important;
+}
 .first .row {
 	position:relative;
 	height: 600px;
@@ -490,8 +496,7 @@ button.et-rotate {
 
 .first .ipad img{
 	width:74%;
-  padding-top: 12%;
-  //margin-left: 13%;
+  padding-top: 33%;
 }
 
 .first .ipad {
@@ -928,6 +933,8 @@ ul.testimonial-box-nav li {
 	-ms-transition:all .2s ease-in-out;
 	-o-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
+  font-family: "Gotham Light"
+
 }
 .subscribe .submit {
 	width:20%;
@@ -951,7 +958,7 @@ ul.testimonial-box-nav li {
 /* Button Send Hover */
 .subscribe .submit:hover {
 	color:#FFF;
-	background:#c0392b;
+	background:#337501;
 	cursor:pointer;
 }
 
@@ -1318,8 +1325,8 @@ header i.fa {
 }
 
 header h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Gotham Light', sans-serif;
+    font-weight: 300;
     font-size: 36px;
 }
 
