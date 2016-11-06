@@ -231,7 +231,7 @@ $("section").waypoint(function(direction) {
 
 
 
-
+/*
     if ($('#testimonials').length){
 		$('.testimonial-box-nav li a').each(function(e){
 			if (e == 0) $(this).parents('#testimonials').children( $(this).attr('href') ).css('display','block').siblings('.testimonial').css('display','none');
@@ -243,7 +243,7 @@ $("section").waypoint(function(direction) {
 				e.preventDefault();
 			});
 		});
-	}
+	}*/
 
 
 
@@ -253,7 +253,7 @@ $("section").waypoint(function(direction) {
 
 
 
-
+/*
 	$('.open-thanks').on('click', function() {
 		$('#thanks-download').fadeIn();
 	});
@@ -264,7 +264,7 @@ $("section").waypoint(function(direction) {
 		$('#thanks-download').fadeOut();
 	});
 
-
+*/
 
 
 
@@ -341,21 +341,22 @@ $("section").waypoint(function(direction) {
 function redirectPage() {
   window.location = linkLocation;
 }
-
+/*
 $(document).ready(function() {
 
-$(".loader").fadeOut(600);
 
-$('nav a, .fade-link').click(function(event) {
-    if (this.href == "" || this.href == null) {
-      event.preventDefault();
-      return;
-    }
-    if ((this.href.indexOf("#") == -1) && (this.href.indexOf("mailto:") == -1) && (this.href.indexOf("javascript:") == -1) && (this.target != "_blank")) {
-      event.preventDefault();
-      linkLocation = this.href;
-      $(".loader").fadeIn(600, redirectPage);
-    }
+
+	$('nav a, .fade-link').click(function(event) {
+	    if (this.href == "" || this.href == null) {
+	      //event.preventDefault();
+	      return;
+	    }
+	    if ((this.href.indexOf("#") == -1) && (this.href.indexOf("mailto:") == -1) && (this.href.indexOf("javascript:") == -1) && (this.target != "_blank")) {
+	//      event.preventDefault();
+	  //    linkLocation = this.href;
+	    //  $(".loader").fadeIn(600, redirectPage);
+	    }
   });
 
 });
+*/
