@@ -6,7 +6,7 @@ description: "Simplify your experience"
 locale: en
 #for meta name="author" :
 author:
-url: www.connectyo.com
+url: connectyo.com
 #Target date in UTC / GMT
 countdown:
   theme: blue
