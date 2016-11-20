@@ -28,15 +28,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/elementTransitions.css"> <!-- Elements Transitions used for mobile menu /-->
   <link rel="stylesheet" href="css/font-awesome.css">   	<!-- Font Awesome /-->
-<link rel="stylesheet" href="css/style.css">   			<!-- Main stylesheet /-->
+  <link rel="stylesheet" href="css/style.css">   			<!-- Main stylesheet /-->
 
   <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
 
-
-
 </head>
-
-
 <body>
 
 <!-- Fade In of the Page -->
@@ -491,13 +487,12 @@
 
 			<!-- Form -->
 
-			 <form id="contact-form" name="contact-form" action="thanks" netlify>
+			 <form name="contact-form" action="thanks" id="contact-form" netlify>
 				<input class="name" type="text" name="name" placeholder="YOUR LOVELY NAME" required>
 				<input class="email" type="email" name="email" placeholder="YOUR E-MAIL" required>
 				<button name="send" type="submit" class="submit">BE INFORMED</button>
 			 </form>
 			<!-- Text After validation -->
-
       <div id="thank-message" class="thank-message"></div>
 		</div>
   </div>
@@ -592,10 +587,11 @@
     var contact = '#contact-form';
     var formMessages = "#thank-message";
     $(contact).submit(function(e) {
-      console.log('here')
+
       e.preventDefault();
 
       var $form = $(this);
+      console.log(this, $.post())
       $.post($form.attr("action"), $form.serialize()).then(function() {
         $(formMessages).html('Thanks for signing up, we will notify you once we launch');
         $('.name').val('');
