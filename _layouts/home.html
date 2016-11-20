@@ -591,8 +591,9 @@
       e.preventDefault();
 
       var $form = $(this);
-      console.log(this, $.post())
+
       $.post($form.attr("action"), $form.serialize()).then(function() {
+        console.log(this, $.post())
         $(formMessages).html('Thanks for signing up, we will notify you once we launch');
         $('.name').val('');
         $('.email').val('');
