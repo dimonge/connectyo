@@ -491,15 +491,14 @@
 
 			<!-- Form -->
 
-			 <form id="contact" name="contact" action="thanks" netlify>
+			 <form id="contact-form" name="contact-form" action="thanks" netlify>
 				<input class="name" type="text" name="name" placeholder="YOUR LOVELY NAME" required>
 				<input class="email" type="email" name="email" placeholder="YOUR E-MAIL" required>
 				<button name="send" type="submit" class="submit">BE INFORMED</button>
 			 </form>
 			<!-- Text After validation -->
 
-      <div class="thank-you"></div>
-			<p class="spam"></p>
+      <div id="thank-message" class="thank-message"></div>
 		</div>
   </div>
 </section>
@@ -590,12 +589,15 @@
     });
   </script>
   <script>
-    $("#contact").submit(function(e) {
+    var contact = '#contact-form';
+    var formMessages = "#thank-message";
+    $(contact).submit(function(e) {
+      console.log('here')
       e.preventDefault();
 
       var $form = $(this);
       $.post($form.attr("action"), $form.serialize()).then(function() {
-        $('.thank-you').append('<p>Thanks for signing up, we will notify you once we launch</p>')
+        $(formMessages).html('Thanks for signing up, we will notify you once we launch');
         $('.name').val('');
         $('.email').val('');
       });
