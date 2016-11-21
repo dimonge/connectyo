@@ -19,587 +19,263 @@
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   {% if site.author %}<meta name="author" content="{{ site.author }}" />{% endif %}
 
-  <!-- Favicon /-->
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" /> <!-- Favicon /-->
-  <link rel="canonical" href="https://connectyo.com" />
+  <!-- Bootstrap Core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Stylesheets /-->
-  <link rel="stylesheet" href="css/gumby.css">   			<!-- Gumby Framework /-->
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="css/elementTransitions.css"> <!-- Elements Transitions used for mobile menu /-->
-  <link rel="stylesheet" href="css/font-awesome.css">   	<!-- Font Awesome /-->
-  <link rel="stylesheet" href="css/style.css">   			<!-- Main stylesheet /-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="./vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./vendor/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="./vendor/device-mockups/device-mockups.min.css">
 
-  <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+  <!-- Theme CSS -->
+  <link href="./css/new-age.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
 </head>
-<body>
+  <body id="page-top">
 
-<!-- Fade In of the Page -->
-<!--div class="loader"></div>-->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                  <img src="img/connectyo-logo.png" />
+                </a>
+            </div>
 
-
-<!-- NAVIGATION ############################################### -->
-
-
-<div class="topBar">
-
-    <div class="barInner row">
-
-    	<a href="index.html"><h1 class="logo">ConnectYo</h1></a>
-
-        <nav id="nav">
-				<a class="scrollTo" href="#vision">Vision</a>
-				<a class="scrollTo" href="#mission">Mission</a>
-				<a class="scrollTo" href="#core-value">Core Value</a>
-				<!--a class="scrollTo" href="#quotes">Testimonials</a-->
-				<!--<a class="scrollTo" href="#sign-up">Sign up</a>-->
-        <a href="https://medium.com/@Connectyo">Blog</a>
-        </nav>
-
-    </div>
-</div>
-
-<!-- END NAVIGATION ############################################### -->
-
-
-
-<!-- HEADER / FIRST SECTION ############################################### -->
-
-
-<section id="header" class="header et-wrapper">
-
-<button class="et-rotate" et-in="scaleUpDown delay300" et-out="scaleDown"><img src="img/hamburger.png" alt="Display Mobile Menu"></button>
-
-  <!-- BACKGROUND HEADER -->
-
-  <div class='blurImg'>
-    <!-- -->
-	  <div style="background-image: url('https://static.pexels.com/photos/2773/city-skyline-skyscrapers-top.jpg')"></div>
-	  <div class='blur' style="background-image: url('img/bgnormal.jpg')"></div>
-  </div>
-
-  	<div class="et-page"> <!-- For Mobile Menu transition -->
-
- 		 <div id="leadFader" class="eight columns">
-
-		    <!-- Logo -->
-
-		    <!--img src="img/logo_white.png" alt="YOUR LOGO"-->
-
-	      	<!-- Title -->
-
-	        <h2>You ask, we deliver</h2>
-          <a class="scrollTo" href="#sign-up"><button class="calltoaction-btn">SIGN UP</button></a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#vision">Vision</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#mission">Mission</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sign-up">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-
-		    <!-- Little text on bottom with arrow -->
-
-		   <a href="#first" class="scrollTo">
-
-			   <div class="go-down">
-		  	      	<img src="img/go-down.png" alt="Go Down">
-			   </div>
-
-		   </a>
-
-	   </div> <!-- End et-page transition -->
-
-	   <div class="et-page"> <!-- For Mobile Menu transition -->
-
-			<nav class="menu-off">
-
-				<ul class="nav-off">
-					<li><a class="scrollTo" href="#vision">Vision</a></li>
-					<li><a class="scrollTo" href="#mission">Mission</a></li>
-					<li><a class="scrollTo" href="#core-value">Core Value</a></li>
-					<!--li><a class="scrollTo" href="#quotes">Testimonials</a></li-->
-					<li><a class="scrollTo" href="#sign-up">Sign up</a></li>
-				</ul>
-
-			</nav>
-
-	   </div> <!-- End et-page transition -->
-
-</section>
-
-
-<!-- END HEADER ############################################### -->
-
-
-<!-- BEGIN CONTAINER ############################################### -->
-
-
-<div id="container" class="container">
-
-
-<!-- FIRST SECTION ############################################### -->
-
-
-<section id="vision" class="first">
-
-	<div class="row scrollme">
-
-				<!-- CONTENT LEFT -->
-
-				<div class="six columns info-left">
-
-					<!-- Title -->
-
-					<h3>Vision</h3>
-
-					<!-- Content -->
-
-					<p>Our Vision is to provide affordable and reliable logistic services to our users.
-          Are you at work, or on a trip? Get your service at your convenient time. </p>
-
-
-				</div>
-
-				<!-- CONTENT RIGHT -->
-
-				<div class="six columns ipad  animateme" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="-100" data-rotatez="0">
-
-					<!-- Content -->
-
-					<img src="img/trip-route.svg" alt="iPad Mockup">
-
-				</div>
-
-			</div> <!-- End row div -->
-
-</section>
-
-<!-- END FIRST SECTION ############################################### -->
-
-
-<!-- SECOND SECTION ############################################### -->
-
-
-<section id="mission" class="second">
-
-	<div class="row scrollme">
-
-				<!-- CONTENT LEFT -->
-
-				<div class="six columns iphone animateme" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="-80" data-rotatez="0">
-
-					<!-- Content -->
-
-					<img src="img/trip-page.png" alt="iPhone Mockup">
-<!-- change to vector image later-->
-				</div>
-
-				<!-- CONTENT RIGHT -->
-
-				<div class="six columns info-left">
-
-					<!-- Title -->
-
-					<h3>Mission</h3>
-
-					<!-- Content -->
-
-					<p>Connecting efficient and easily accessible logistics services to our users. Providing real-time request to verified service provider from users.
-          Bringing the closest service provider to the user thereby saving cost and reducing the emission of CO into the environment.</p>
-
-					<div class="space"></div>
-
-					<!--ul class="feature-list">
-						<li><i class="fa fa-bullseye"></i> Reliable and Secure Platform</li>
-						<li><i class="fa fa-power-off"></i> Everything is perfectly orgainized for future</li>
-						<li><i class="fa fa-check-circle-o"></i></li>
-						<li><i class="fa fa-dot-circle-o"></i> Reduce the emission of CO by bringing services to your doorstep</li>
-			    </ul-->
-				</div>
-
-			</div> <!-- End row div -->
-
-</section>
-
-<!-- END SECOND SECTION ############################################### -->
-
-
-<!-- TIRTH SECTION ############################################### -->
-<section id="core-value" class="first">
-
-	<div class="row scrollme">
-
-				<!-- CONTENT LEFT -->
-
-				<div class="six columns info-left">
-
-					<!-- Title -->
-
-					<h3>Core Value</h3>
-
-					<!-- Content -->
-
-          <ul class="feature-list" style="font-weight:300">
-						<li><i class="fa fa-check-circle-o"></i>Reliable and Secure Platform</li>
-						<li><i class="fa fa-check-circle-o"></i>Access to verified service providers</li>
-            <li><i class="fa fa-check-circle-o"></i>Real-time tracking</li>
-            <li><i class="fa fa-check-circle-o"></i>Seamless payment</li>
-            <li><i class="fa fa-check-circle-o"></i>Access to transaction history</li>
-			    </ul>
-
-				</div>
-
-				<!-- CONTENT RIGHT -->
-
-				<div class="six columns ipad  animateme" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="-100" data-rotatez="0">
-
-					<!-- Content -->
-
-					<img src="img/works.svg" alt="iPad Mockup">
-
-				</div>
-
-			</div> <!-- End row div -->
-
-</section>
-
-<!--section id="tirth" class="tirth">
-
-	<div class="row scrollme animateme" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="-80" data-rotatez="0">
-
-
-				CONTENT CENTERED
-
-				<div class="ten columns centered">
-
-
-
-					<img src="http://www.placehold.it/1100x300" alt="iPhone Mockup" class="animateme" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="-80" data-rotatez="0">
-
-
-
-					<h3>A centered content</h3>
-
-
-
-					<p>Bacon ipsum dolor sit amet pork ground round tail fatback leberkas pork loin. Pork chop bresaola sausage, short ribs biltong jowl rump hamburger drumstick fatback shankle. Pig tenderloin salami pork belly meatball. Capicola spare ribs beef ribs biltong, ball tip strip steak fatback hamburger andouille chicken corned beef tail cow. Pork loin bresaola salami, spare ribs ham leberkas tenderloin. Shankle boudin sirloin pork pig biltong corned beef chicken brisket.</p>
-
-					<div class="space"></div>
-
-
-
-					<a href="#four" class="border-button scrollTo">Sign up</a>
-
-
-				</div>
-
-
-			</div>
-
-</section>
--->
-<!-- END TIRTH SECTION ############################################### -->
-
-
-<!-- SCREENSHOTS SECTION ############################################### -->
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header id="vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>Our Vision<h1>
+                            <h2>
+                              Our Vision is to provide affordable and reliable logistic services to our users.
+                              Are you at work, or on a trip? Get your service at your convenient time.
+                            </h2>
+                            <a href="#sign-up" class="btn btn-outline btn-xl page-scroll">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div class="col-sm-5">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">-->
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! --><!--
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="button">-->
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                <!--/div>
+                            </div>
+                        </div>
+                    </div>
+                </div -->
+            </div>
+        </div>
+    </header>
+
+    <section id="mission" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>You ask, We deliver</h2>
+                        <!--p class="text-muted">Upcom</p-->
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-5 col-md-5 col-lm-5">
+                  <div class="device-container">
+                      <div class="device-mockup iphone6_plus portrait white">
+                          <div class="device">
+                              <div class="screen">
+                                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                  <img src="img/demo-screen.png" style="height:100%" class="img-responsive" alt="">
+                              </div>
+                              <div class="button">
+                                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-7" style="margin-top: 200px;">
+                  <h2 class="section-heading">Mission</h2>
+                  <h3>Connecting efficient and easily accessible logistics services to our users.
+                    Providing real-time request to verified service provider from users. Bringing the
+                    closest service provider to the user thereby saving cost and reducing
+                    the emission of CO into the environment.
+                  </h3>
+                  <!--div class="badges">
+                      <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+                      <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                  </div-->
+              </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>Features</h2>
+                        <!--p class="text-muted">Upcom</p-->
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--div class="col-md-12">
+                    <img src="img/app-cycle.png" class="img-responsive" alt="">
+                </div-->
+                <div class="col-md-12">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="material-icons text-primary">directions_car</i>
+                                    <h3>Access to verified service providers.</h3>
+                                    <!--p class="text-muted">Access to verified service providers.</p-->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="material-icons text-primary">reorder</i>
+                                    <h3>Reliable and Secure Platform</h3>
+                                    <!--p class="text-muted">Put an image, video, animation, or anything else in the screen!</p-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="material-icons text-primary">add_location</i>
+                                    <h3>Real time tracking</h3>
+                                    <!--p class="text-muted">As always, this theme is free to download and use for any purpose!</p-->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-credit-card text-primary"></i>
+                                    <h3>Seamless payment</h3>
+                                    <!--p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="cta" id="sign-up">
+        <div class="cta-content">
+            <div class="container">
+                <h2>We're not ready, wanna be informed when we launch ?</h2>
+                <form class="form-inline" style="text-align:center;" name="contact-form" action="thanks" id="contact-form" netlify>                  
+                  <input id="name" class="name custom-form form-control" type="text" name="name" placeholder="YOUR LOVELY NAME" required>
+                  <input id="email"class="email custom-form form-control" type="email" name="email" placeholder="YOUR E-MAIL" required>
+                  <button name="send" type="submit" class="btn btn-outline btn-xl submit">SIGN UP</button>
+                </form>            
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div id="thank-you"></div>
+    </section>
 <!--
-<section id="screen" class="screenshots" >
-
-
-	<div class="infinite-carousel">
-
-	<div class="front-iphone"><img src="img/iphone-mockup.png" alt="exemple"></div>
-
-	  <div class="carousel-viewport">
-	      <div class="slide slide-current"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-	      <div class="slide"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-	      <div class="slide"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-	      <div class="slide"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-	      <div class="slide"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-	      <div class="slide"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-	      <div class="slide"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-	      <div class="slide"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-	      <div class="slide"><img src="http://www.placehold.it/640x1136" alt="exemple"></div>
-
-	  </div>
-
-	  <a class="carousel-control-previous"></a>
-	  <a class="carousel-control-next"></a>
-
-	</div>
-
-</section>
+    <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2>We <i class="fa fa-heart"></i> new friends!</h2>
+            <ul class="list-inline list-social">
+                <li class="social-twitter">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="social-facebook">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social-google-plus">
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
 -->
-<!-- END SCREENSHOTS SECTION ############################################### -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2016 ConnectYo. All Rights Reserved.</p>
+            <!--
+            <ul class="list-inline">
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+            -->
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="./vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="./js/new-age.min.js"></script>
 
-
-
-<!-- SERVICES SECTION ############################################### -->
-<!--
-<section id="services" class="services">
-
-	<div class="row scrollme">
-
-				<div class="twelve columns animateme" data-when="enter" data-from="1" data-to="0.2" data-opacity="0" data-translateY="-120" data-rotatez="0">
-
-
-					<h3>What did you recieve with it.</h3>
-
-
-
-					<ul class="four_up tiles services_list">
-
-
-						<li class="arrow-left animateme" data-when="enter" data-from="0.5" data-to="0.3" data-opacity="0" data-translatex="-40" data-rotatez="0">
-
-						<img src="img/ico/1.png" alt="1">
-
-
-
-						<h5>Pretty easy to customize</h5>
-
-
-
-						<p>Our themes are well documented, even if you are a beginner, you'll found your theme easy to setup and customize to your liking in minutes.</p>
-
-						</li>
-
-
-						<li class="arrow-left animateme" data-when="enter" data-from="0.8" data-to="0.4" data-opacity="0" data-translatex="-80" data-rotatez="0">
-
-						<img src="img/ico/2.png" alt="2">
-
-
-						<h5>Exactly what you need</h5>
-
-
-						<p>We focus on what's important and make sure you can use our themes within minutes after purchase to it's full potential.</p>
-
-						</li>
-
-						<li class="arrow-left animateme" data-when="enter" data-from="0.7" data-to="0.5" data-opacity="0" data-translatex="-80" data-rotatez="0">
-
-						<img src="img/ico/3.png" alt="3">
-
-
-						<h5>Theme support</h5>
-
-
-						<p>Have any issues with one of our themes? Check out our extensive support page or send us a mail via the contact form.</p>
-
-						</li>
-
-						<li class="animateme" data-when="enter" data-from="0.7" data-to="0.6" data-opacity="0" data-translatex="-80" data-rotatez="0">
-
-						<img src="img/ico/4.png" alt="4">
-
-
-
-						<h5>Give us your feedback</h5>
-
-
-
-						<p>If you have any requests, motivations, criticizing or just to say thank you just contact us and we'll have a chat about it.</p>
-
-						</li>
-
-
-					</ul>
-
-				</div>
-
-
-			</div>
-</section>
--->
-<!-- TESTIMONIALES SECTION ############################################### -->
-<!--
-<section id="quotes" class="quotes">
-
-<div class="row scrollme">
-
-	<div id="testimonials" class="animateme" data-when="enter" data-from="0.4" data-to="0.2" data-opacity="0" data-translatey="-40" data-rotatez="0">
-
-
-	    <div class="testimonial-box">
-
-			<ul class="testimonial-box-nav ">
-				<li>
-		        	<a href="#testimonial1">
-		            	<img src="http://www.placehold.it/170x170" alt="Exemple">
-		            </a>
-				</li>
-				<li>
-		        	<a href="#testimonial2">
-		            	<img src="http://www.placehold.it/170x170" alt="Exemple">
-		            </a>
-				</li>
-				<li>
-		       		<a href="#testimonial3" class="active">
-		            	<img src="http://www.placehold.it/170x170" alt="Exemple">
-		         	</a>
-				</li>
-				<li>
-		        	<a href="#testimonial4">
-		            	<img src="http://www.placehold.it/170x170" alt="Exemple">
-		           </a>
-	           </li>
-
-			</ul>
-
-		</div>
-
-		  <div class="testimonial" id="testimonial1" style="display: none;">
-		    <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et lectus posuere, blandit libero vitae, pellentesque elit. Nam a orci in dui blandit hendrerit. Quisque lectus metus, blandit quis mauris a, accumsan facilisis mauris. Vestibulum odio est, scelerisque sed ligula vitae, lacinia luctus ante. ”</p>
-		    <span><b>Francis Martinez</b> | <a href="#">@FrancisMartinez</a></span>
-		  </div>
-
-		  <div class="testimonial" id="testimonial2" style="display: none;">
-		    <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et lectus posuere, blandit libero vitae, pellentesque elit. Nam a orci in dui blandit hendrerit quisque lectus metus, blandit quis mauris accumsan. ”</p>
-		    <span><b>Pol-Henry Martens</b> | <a href="#">@h4rrym</a></span>
-		  </div>
-
-		  <div class="testimonial" id="testimonial3" style="display: block;">
-		    <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et lectus posuere, blandit libero vitae, pellentesque elit. Nam a orci in dui blandit hendrerit. ”</p>
-		    <span><b>Manon Deluxe</b> | <a href="#">www.manondelux.be</a></span>
-		  </div>
-
-		  <div class="testimonial" id="testimonial4" style="display: none;">
-		    <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et lectus posuere, landit libero vitae, pellentesque elit. Nam a orci in dui blandit hendrerit. Quisque lectus metus, landit quis mauris. ”</p>
-		    <span><b>Lananh Buisson</b> | <a href="#">@lanana</a></span>
-		  </div>
-
-	</div>
-
-</div>
-
-</section>
--->
-<!-- END TESTIMONIALES SECTION ############################################### -->
-
-
-
-<!-- SUBSCRIBE SECTION ############################################### -->
-
-<section id="sign-up" class="subscribe scrollme">
-	<div class="row animateme" data-when="enter" data-from="0.8" data-to="0.2" data-opacity="0" data-translateY="-80">
-				<!-- Subscribe -->
-		<div class="ten columns centered">
-			<!-- Title -->
-
-			<h3>We're not ready, wanna be informed when we launch ?</h3>
-
-			<!-- Form -->
-
-			 <form name="contact-form" action="thanks" id="contact-form" netlify>
-				<input class="name" type="text" name="name" placeholder="YOUR LOVELY NAME" required>
-				<input class="email" type="email" name="email" placeholder="YOUR E-MAIL" required>
-				<button name="send" type="submit" class="submit">BE INFORMED</button>
-			 </form>
-			<!-- Text After validation -->
-
-      <div id="thank-message" class="thank-message"></div>
-		</div>
-  </div>
-</section>
-
-<!-- END SUBSCRIBE SECTION ############################################### -->
-
-
-
-<!-- FOURTH SECTION ############################################### -->
-<!--
-<section id="four" class="fourth">
-
-	<div class="row scrollme animateme" data-when="enter" data-from="1" data-to="0.5" data-opacity="0" data-translatey="-100" data-rotatez="0">
-
-
-				<div class="center-me">
-
-					<h3>GET IT RIGHT NOW !</h3>
-
-					<p class="lead">Probably the best landing page ever made</p>
-
-					<a class="border-button open-thanks">Download it</a>
-
-					<div class="space"></div>
-
-					<p>or you can simply share it with your friends</p>
-
-					<a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a>
-
-				</div>
-
-
-
-			</div>
-
-</section>
--->
-<!-- END FOURTH SECTION ############################################### -->
-
-
-
-<!-- THANKS FOR DOWNLOADING ############################################### -->
-
-<!--
-<div id="thanks-download" class="row">
-
-    <div class="five columns centered message">
-
-	    <h3>THANKS FOR DOWNLOADING IT</h3>
-
-	    <p>You'll be redirected to the App Store, if not click on <a href="#">this link</a>.</p>
-
-    </div>
-
-</div>
--->
-
-<!-- END THANKS FOR DOWNLOADING ############################################### -->
-
-
-
-
-
-</div> <!-- end of container -->
-
-
-  <!-- Grab Google CDN's jQuery, fall back to local if offline -->
-  <!--script src="js/jquery-1.11.1.min.js"></script-->											<!-- jQuery -->
-  <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
-  <script src="js/plugins.js" type="text/javascript"></script> 								<!-- Plugins File for Contact Form -->
-  <script src="js/waypoints.min.js" type="text/javascript"></script>						<!-- Waypoints -->
-  <script src="js/jquery.scrollto.js" type="text/javascript"></script> 						<!-- ScrollTo -->
-  <script src="js/jquery.scrollme.js" type="text/javascript"></script> 						<!-- ScrollMe -->
-  <script src="js/mediaCheck.js" type="text/javascript"></script> 							<!-- MediaCheck -->
-  <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script> 				<!-- Parallax -->
-  <!--script src="js/yui.js" type="text/javascript"></script>--> 									<!-- YUI For Header Text -->
-  <script src="js/owl.carousel.js" type="text/javascript"></script> 						<!-- Owl Carousel -->
-  <script src="js/elementTransitions.min.js" type="text/javascript"></script>				<!-- ElementsTransitions used for Mobile Menu -->
-  <script src="js/main.js" type="text/javascript"></script> 								<!-- Main Javascript File -->
-
-
-
-  <!-- Change UA-XXXXX-X to be your site's ID -->
-  <script>
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script>
-  <script>
-    var contact = '#contact-form';
-    var formMessages = "#thank-message";
-    $(contact).submit(function(e) {
-
-      e.preventDefault();
-
-      var $form = $(this);
-      console.log(this, $.post())
-      $.post($form.attr("action"), $form.serialize()).then(function() {
-        $(formMessages).html('Thanks for signing up, we will notify you once we launch');
-        $('.name').val('');
-        $('.email').val('');
-      });
-    });
-  </script>
   </body>
 
 </html>
