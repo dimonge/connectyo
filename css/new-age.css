@@ -19,6 +19,12 @@ body {
 body {
   font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
 }
+.navbar-brand .logo{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 3rem;
+  margin: -9px;
+}
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
